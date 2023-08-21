@@ -1,0 +1,35 @@
+.hero_image{
+     background-size: cover;
+     height:100vh;
+     background-image: url('heroimage.jpg');
+     background-repeat: no-repeat;
+     
+}
+.text{
+      position: relative;
+     top: 160px;
+     left: 340px; */      
+}
+ /*productd section  */
+ .product{
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ .product1{
+     float: left;
+     width: 20%;
+     margin-left: auto;
+     margin-left: .5rem;
+     margin-top: .5rem;
+ }
+ /* utility classes */
+ .img_responsive{
+     max-width: 100%;
+ }
+ @media screen and (max-width: 700px) {
+    .product1{
+        width:100%;
+        float: left;
+    }
+ }
